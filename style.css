@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body {
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wrapper1 {
+	width: 60%;
+	border: 1px solid #EBEBEB;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.wrapper1:hover {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.logo {
+	width: 130px;
+	margin: 10px;
+}
+
+.wrap1 {
+	display: flex;
+	align-items: center;
+}
+
+.wrap1 > span {
+	margin-left: 15px;
+}
+
+input {
+	border:0;
+	padding: 8px;
+	width: 80%;
+}
+
+.rightb > span {
+	margin: 8px;
+}
+
+.llo {
+	border-radius: 100%;
+}
+
+.tools {
+	display: flex;
+	align-items: center;
+	margin-left: 25%;
+}
+
+.tools > span {
+
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+}
+
+.tools > span p {
+	font-size: 14px;
+	color: #495450;
+	opacity: 0.7;
+	padding-left: 8px;
+}
+
+hr {
+	width: 100%;
+	border: 1px solid #EBEBEB;
+}
+
+
+.main {
+	width: 60%;
+	margin: auto;
+}
+
+.link {
+
+	margin: 8px;
+	margin-bottom: 20px;
+}
+
+.link > p {
+	color: #4d5156;
+	font-size: 14px;
+}
+
+.link > span {
+	color: #4d5156;
+	font-size: 14px;
+}
+
+.footer {
+	background-color: #F2F2F2;
+	padding: 10px;
+
+}
+
+.footer div {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer div > span {
+color: #4d5156;
+	font-size: 12px;
+
+}
+
+img {
+	cursor: pointer;
+}
+
